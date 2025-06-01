@@ -1,0 +1,124 @@
+
+/* Adicione isso ao início do seu style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/SoloMerfelFundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white; /* Ajuste conforme o contraste com a imagem */
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background: transparent;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#sobre {
+    text-align: center;
+    padding: 2rem;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#portfolio {
+    padding: 2rem;
+    background: transparent;
+}
+
+.galeria {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#contato {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+#musica {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: rgba(32, 156, 194, 0.5);
+  color: white;
+}
+
+#musica h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#instagram {
+  text-align: center;
+  padding: 2rem;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  background: #0935f7;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+.insta-link:hover {
+  background: #c72e61;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
